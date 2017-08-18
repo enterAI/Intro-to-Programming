@@ -1,0 +1,59 @@
+/* This is a CSS comment.*/
+/* To check the CSS correct:
+  http://jigsaw.w3.org/css-validator/#validate_by_input
+*/
+/*
+Comments are only to help PEOPLE read a code file. The
+computer ignores them.
+*/
+
+/* 3 ways to apply css into html
+  Method 1: Write CSS in the <head> of your HTML
+  Method 2: Link your HTML to a separate CSS file
+  Method 3: Write your style inline with your HTML */
+
+/* example
+ for every html
+p {
+
+}
+
+ for description class
+.description {
+  color: red;
+}
+
+ for every h1 element
+ h1: selector
+ background-color: property
+ black: value of that property
+ background-color : black: declaration
+h1 {
+  background-color : black;
+  color: white;
+}
+*/
+* {
+   outline: 1px solid red !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.image {
+  max-width: 460px;
+}
+.description {
+  max-width: 705px;
+  margin-left: 2%;
+}
+.app {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+}
